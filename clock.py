@@ -15,7 +15,7 @@ def timer(hours=0,minutes=0,seconds=0):
 		print(f"  {remainhour}:{remainmin}:{remainsec}")
 	sleep(1)
 #check the alarm file then enter path
-#startfile("C:\\Users\\Shiney Peter\\OneDrive\\Desktop\\python\\Alarm.mp3")
+#startfile("Desktop\\python\\Alarm.mp3")
 #print("TIME'S UP!!!")	
 #alarm function
 def alarm(hours=0,minutes=0,seconds=0):
@@ -46,7 +46,7 @@ if n==1:
 	timer(hours,min,sec)
 	system(cls)
 	print("TIME'S UP!!!")
-	startfile("C:\\Users\\Shiney Peter\\OneDrive\\Desktop\\python\\Alarm.mp3")
+	startfile("Desktop\\python\\Alarm.mp3")
 	
 
 #alarm	
@@ -55,11 +55,11 @@ elif n==2:
 	min=int(input("Enter minutes : "))
 	alarm(hour,min)
 	print("WAKE UP!!!")
-	startfile("C:\\Users\\Shiney Peter\\OneDrive\\Desktop\\python\\Alarm.mp3")
+	startfile("Desktop\\python\\Alarm.mp3")
 #stopwatch
 elif n==3:
 	print("Enter 'control-C' to stop : ")
 	stopwatch()
-	startfile("C:\\Users\\Shiney Peter\\OneDrive\\Desktop\\python\\Alarm.mp3")
+	startfile("Desktop\\python\\Alarm.mp3")
 else:
 	print("INVALID INPUT")
